@@ -1,5 +1,27 @@
-# Next-word-Predictor
+#  Next-Word / Song Line Predictor
 
-Developed an LSTM-based Recurrent Neural Network to predict the next word in a sequence, leveraging text datasets for training and implementing sequence modeling and natural language processing(NLP) techniques to achieve accurate predictions.
+This repository contains a Jupyter Notebook (`Song_generator.ipynb`) that builds and trains a **next-word or lyric generation model** using natural language processing and deep learning.
 
-use the dataset provided it may not get an excellent accuracy because of the size of data and the limitation the RNNs have can use transformers to get an very good accuracy
+The goal of this notebook is to help generate the next word or line in a sequence — useful for text prediction and song generation tasks. :contentReference[oaicite:1]{index=1}
+
+---
+
+##  Overview
+
+This project typically includes:
+
+1. **Text preprocessing**
+2. Tokenization and sequence creation
+3. Vocabulary building
+4. Deep learning model training (e.g., LSTM/RNN)
+5. Generating predictions for the next word or text segment
+
+---
+
+##  Installation
+
+1. **Clone this repository:**
+
+   ```bash
+   git clone https://github.com/Sahilp14/Next-word-Predictor.git
+   cd Next-word-Predictor
